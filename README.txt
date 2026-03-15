@@ -1,47 +1,47 @@
-#  AI Image Generator
+AI Image Generator
 
 An AI-powered web application that generates images based on user prompts.
 Users simply enter a text description, and the AI generates a corresponding image.
 
 ---
 
-##  Features
+Features
 
-*  Generate images using text prompts
-*  Fast API communication between frontend and backend
-*  Simple and responsive UI
-*  REST API integration for image generation
+1.  Generate images using text prompts
+2.  Fast API communication between frontend and backend
+3.  Simple and responsive UI
+4.  REST API integration for image generation
 
 ---
 
-##  Tech Stack
+Tech Stack
 
-**Frontend**
+Frontend
 
 * JavaScript
 * Axios
 
-**Backend**
+Backend
 
 * Node.js
 * Express.js
 
 ---
 
-##  Dependencies
+Dependencies
 
 The project uses the following dependencies:
 
-* **nodemon** – Automatically restarts the server during development
-* **dotenv** – Manages environment variables
-* **express** – Backend framework for building APIs
-* **cors** – Enables cross-origin requests
-* **axios** – Handles HTTP requests
-* **stream-browserify** – Stream support for browser environments
+1. nodemon – Automatically restarts the server during development
+2. dotenv – Manages environment variables
+3. express – Backend framework for building APIs
+4. cors – Enables cross-origin requests
+5. axios – Handles HTTP requests
+6. stream-browserify – Stream support for browser environments
 
 ---
 
-##  Installation
+Installation
 
 Clone the repository:
 
@@ -58,15 +58,15 @@ npm install
 
 ---
 
-##  Running the Project
+Running the Project
 
-### Start Backend
+Start Backend
 
 ```bash
 npx nodemon server
 ```
 
-### Start Frontend
+Start Frontend
 
 ```bash
 npm run start
@@ -74,7 +74,7 @@ npm run start
 
 ---
 
-##  Usage
+Usage
 
 1. Start both the backend and frontend servers.
 2. Open the frontend application in your browser.
@@ -109,7 +109,7 @@ ai-image-generator
 
 ---
 
-##  Environment Variables
+Environment Variables
 
 Create a `.env` file in the root directory and add your API keys:
 
@@ -119,10 +119,10 @@ API_KEY=your_api_key_here
 
 ---
 
-##  Future Improvements
+Future Improvements
 
-* Image download feature
-* Prompt history
-* Image gallery
-* Multiple AI model support
-* Better UI/UX
+1. Image download feature
+2. Prompt history
+3. Image gallery
+4. Multiple AI model support
+5. Better UI/UX
